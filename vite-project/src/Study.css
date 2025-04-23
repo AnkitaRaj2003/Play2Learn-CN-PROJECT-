@@ -1,0 +1,34 @@
+.study-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .subject-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 50px;
+  }
+  
+  .subject-btn {
+    padding: 15px 25px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .subject-btn:hover {
+    background-color: #45a049;
+  }
+  
+  @media (max-width: 600px) {
+    .subject-buttons {
+      grid-template-columns: 1fr;
+    }
+  }
